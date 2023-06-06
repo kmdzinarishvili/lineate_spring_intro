@@ -1,9 +1,11 @@
 package com.exam.usershttpserver.repositories;
 
 import com.exam.usershttpserver.models.User;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+@Repository
 public class UserRepository  {
 
      final Map<Long, User> userMap = new HashMap<>();
